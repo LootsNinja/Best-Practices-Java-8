@@ -10,4 +10,7 @@ static factory methods.
 * Using static factory methods in interfaces since Java 8 can provide us creating very compact APIs.
 * Any subtype of the declared return type is permissible.
 
+Advantages:
+* Static factory methods have names.
+
 :bulb: The main limitation of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.
