@@ -13,7 +13,7 @@ static factory methods.
   * Using static factory methods in interfaces since Java 8 can provide us creating very compact APIs.
 * Any subtype of the declared return type is permissible.
   * The class of the returned object can vary from call to call as a function of the input parameters.
-  * Not only the bulk of the API is reduced, but the conceptual weight as well. (the number and difficulty of the conceps that programmers must master in order to use the API.)
+  * Not only the bulk of the API is reduced, but the conceptual weight as well. (the number and difficulty of the concepts that programmers must master in order to use the API.)
   * Using static factory method requires the clinet to refer to the returned object by interface rather than implementation class.
 * The class of the returned objects doesn't need to exist when the class containing the method is written.
 
