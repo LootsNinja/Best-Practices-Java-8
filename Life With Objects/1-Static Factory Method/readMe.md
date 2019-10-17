@@ -17,5 +17,10 @@ static factory methods.
   * Using static factory method requires the clinet to refer to the returned object by interface rather than implementation class.
 * The class of the returned objects doesn't need to exist when the class containing the method is written.
 
+### Limitations:
+* When providing ONLY static factory methods, classes without public or protected constructors cannot be subclassed.
+ * encourages programmers to use composition instead of inheritance.
+* static factory methods are hard for programmers to find.
+ * They do not stand out in API documentation in the way constructors do.
 
-:bulb: The main limitation of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.
+:bulb: As a good practice, static factory methods are preferable over constructors, so avoid the reflex to provide public constructors without first considering static factories.
