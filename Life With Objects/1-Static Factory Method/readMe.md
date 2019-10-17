@@ -19,8 +19,8 @@ static factory methods.
 
 ### Limitations:
 * When providing ONLY static factory methods, classes without public or protected constructors cannot be subclassed.
- * encourages programmers to use composition instead of inheritance.
-* static factory methods are hard for programmers to find.
+ * Encourages programmers to use composition instead of inheritance.
+* Static factory methods are hard for programmers to find.
  * They do not stand out in API documentation in the way constructors do.
 
 :bulb: As a good practice, static factory methods are preferable over constructors, so avoid the reflex to provide public constructors without first considering static factories.
